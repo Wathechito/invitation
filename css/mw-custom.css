@@ -9,9 +9,9 @@
     --body-font-family: 'Baskervville', serif;
     --cursive-font-family: 'Alex Brush', cursive;
 
-    --main-color: #b8b8b8;
-    --secondary-color: #a2998a;
-    --third-color: #d3cac3;
+    --main-color: #868978; /* Barra de menú */
+    --secondary-color: #7c8455; /* Letra principal */
+    --third-color: #b3c4a6; /* Letra cuerpo */
     --fourth-color: #cbc6c0;
     --fifth-color: #fbfbfb;
     --dark-color: #303030;
