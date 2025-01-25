@@ -889,7 +889,7 @@ background-size: inherit;
 }
 
 .calendar-buttons {
-  display: flex;
+  display: none;
   justify-content: center;
 }
 
