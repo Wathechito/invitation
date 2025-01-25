@@ -1848,6 +1848,9 @@ body #timeline {
 }
 
 .download-app .buttons a.mw-btn {
+  display: flex; /* Asegura que los elementos internos se alineen */
+  justify-content: center; /* Centra el texto horizontalmente */
+  align-items: center; /* Centra el texto verticalmente */
   color: #303030 !important;
   margin: 0 5px;
   width: 260px;
@@ -1860,6 +1863,8 @@ body #timeline {
   padding: 14px 22px;
   width: 360px;
   opacity: 1;
+  /* justify-content: center; */ /* Mantén el texto centrado */
+  /* align-items: center; */ /* Mantén el texto centrado */
 }
 
 @media (min-width: 992px) {
