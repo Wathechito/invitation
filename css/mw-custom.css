@@ -786,7 +786,7 @@ background-size: inherit;
 
 .intro-block .full-width div {
   padding: 2%;
-  background-color: var(--third-color);
+  background-color: #cad7c0; /* Cambiar de color cuadro de Nuestra Historia */
 }
 
 .intro-block h3 {
@@ -1097,7 +1097,7 @@ background-size: inherit;
 
 .story-section .story-timeline .date {
     font-family: var(--secondary-font-family);
-    color: var(--third-color);
+    color: #21291d;  /* Cambiar de color a hora de intinerario */
     font-size: 1em;
 }
 
