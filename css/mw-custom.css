@@ -170,6 +170,11 @@ h6 {
     color: #fff !important;
 }
 
+.white-text-banco {
+  color: #fff !important;
+  font-family: Arial, sans-serif; /* cambio del tipo de letra */
+}
+
 .bold-text {
     font-weight: 600 !important;
 }

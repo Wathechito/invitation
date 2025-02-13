@@ -95,6 +95,14 @@ a:focus {
 }
 
 /*--------------------------------------------------------------
+#0.1    Texto de reaglos
+--------------------------------------------------------------*/
+.gift-text p {
+  font-size: 1.1rem; /* Ajusta el tamaño según prefieras */
+  margin-bottom: 40px
+}
+
+/*--------------------------------------------------------------
 #0.2    Global Elements
 --------------------------------------------------------------*/
 .page-wrapper {
@@ -3616,7 +3624,9 @@ a:focus {
 /*--------------------------------------------------------------
 #1.5	gift-registration-section
 --------------------------------------------------------------*/
-.gift-registration-section {
+/* Cambio: centrar solamente dos cuadros */
+
+/* .gift-registration-section {
   text-align: center;
 }
 
@@ -3638,6 +3648,55 @@ a:focus {
 .gift-registration-section .gif-registration-slider .register img {
   width: auto;
   max-width: 100%;
+} */
+
+.gift-registration-section {
+  text-align: center;
+}
+
+.gift-registration-section .gif-registration-slider {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  gap: 20px; /* Espacio entre elementos */
+  flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente línea si no caben */
+  margin-top: 0px;
+}
+
+.gift-registration-section .gif-registration-slider .register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid rgba(255,255,255,0.6);
+  padding: 20px 30px;
+  background: var(--third-color);
+  margin: 14px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.gift-registration-section .gif-registration-slider .register p {
+  margin-bottom: 0px;
+}
+
+.gift-registration-section .gif-registration-slider .register img {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.gift-registration-section .gif-registration-slider .register:hover {
+  background: var(--secondary-color);
+  box-shadow: var(--dark-box-shadow);
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .gift-registration-section .gif-registration-slider {
+    margin-top: 45px;
+  }
 }
 
 /*------------------------------------------------------
