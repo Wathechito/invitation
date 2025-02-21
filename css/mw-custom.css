@@ -9,8 +9,8 @@
     --body-font-family: 'Baskervville', serif;
     --cursive-font-family: 'Alex Brush', cursive;
 
-    --main-color: #868978; /* Barra de menú */
-    --secondary-color: #7c8455; /* Letra principal */
+    --main-color: #868978; /* Barra de menú #868978 */
+    --secondary-color: #7c8455; /* Letra principal #7c8455*/
     --third-color: #b3c4a6; /* Letra cuerpo */
     --fourth-color: #cbc6c0;
     --fifth-color: #fbfbfb;
@@ -205,6 +205,7 @@ h6 {
     background-color: var(--third-color);
     color: #303030 !important;
     border: var(--btn-border-width) var(--btn-border-style) var(--btn-dark-border-color);
+    font-size: 14px; /* Tamaño de texto */
 }
 
 .mw-btn.dark-btn:hover {
@@ -791,7 +792,7 @@ background-size: inherit;
 
 .intro-block .full-width div {
   padding: 2%;
-  background-color: #cad7c0; /* Cambiar de color cuadro de Nuestra Historia */
+  background-color: #f5f9e6; /* Cambiar de color cuadro de Nuestra Historia #d7e8ca*/
 }
 
 .intro-block h3 {
